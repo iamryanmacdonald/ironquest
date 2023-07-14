@@ -13215,5 +13215,62 @@
     },
     "title": "Battle of the Monolith",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "City of Senntisten",
+    "id": 299,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 298,
+          "ironman": false,
+          "recommended": false
+        }
+      ],
+      "skills": [
+        {
+          "ironman": false,
+          "level": 74,
+          "recommended": false,
+          "skill": "ARCHAEOLOGY"
+        },
+        {
+          "ironman": false,
+          "level": 74,
+          "recommended": false,
+          "skill": "MAGIC"
+        },
+        {
+          "ironman": false,
+          "level": 75,
+          "recommended": false,
+          "skill": "SLAYER"
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "ATTACK,CONSTITUTION,DEFENCE,MAGIC,PRAYER,RANGED,STRENGTH,SUMMONING": 1
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 50000.0
+        }
+      ],
+      "questPoints": 3,
+      "xp": {
+        "ARCHAEOLOGY": 50000.0,
+        "MAGIC": 50000.0,
+        "SLAYER": 50000.0
+      }
+    },
+    "title": "City of Senntisten",
+    "type": "QUEST"
   }
 ]
