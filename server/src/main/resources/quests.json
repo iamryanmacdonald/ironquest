@@ -13272,5 +13272,16 @@
     },
     "title": "City of Senntisten",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Once Upon a Time in Gielinor",
+    "id": 300,
+    "requirements": {},
+    "rewards": {
+      "questPoints": 4
+    },
+    "title": "Once Upon a Time in Gielinor",
+    "type": "QUEST"
   }
 ]
