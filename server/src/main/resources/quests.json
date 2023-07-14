@@ -13307,5 +13307,21 @@
     },
     "title": "Eye of Het I",
     "type": "MINIQUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Eye of Het II",
+    "id": 302,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 301,
+          "ironman": false,
+          "recommended": false
+        }
+      ]
+    },
+    "title": "Eye of Het II",
+    "type": "MINIQUEST"
   }
 ]
