@@ -13283,5 +13283,29 @@
     },
     "title": "Once Upon a Time in Gielinor",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Eye of Het I",
+    "id": 301,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 299,
+          "ironman": false,
+          "recommended": false
+        }
+      ],
+      "skills": [
+        {
+          "ironman": false,
+          "level": 65,
+          "recommended": false,
+          "skill": "AGILITY"
+        }
+      ]
+    },
+    "title": "Eye of Het I",
+    "type": "MINIQUEST"
   }
 ]
