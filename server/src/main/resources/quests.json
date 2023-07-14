@@ -13191,5 +13191,29 @@
     },
     "title": "Azzanadra's Quest",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Battle of the Monolith",
+    "id": 298,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 297,
+          "ironman": false,
+          "recommended": false
+        }
+      ],
+      "skills": [
+        {
+          "ironman": false,
+          "level": 5,
+          "recommended": false,
+          "skill": "ARCHAEOLOGY"
+        }
+      ]
+    },
+    "title": "Battle of the Monolith",
+    "type": "QUEST"
   }
 ]
