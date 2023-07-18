@@ -703,7 +703,7 @@
           "ironman": false,
           "level": 10,
           "recommended": false,
-          "skill": "CRAFTING"
+          "skill": "FISHING"
         }
       ]
     },
@@ -1831,8 +1831,8 @@
       "skills": [
         {
           "ironman": false,
-          "level": 15,
-          "recommended": false,
+          "level": 47,
+          "recommended": true,
           "skill": "AGILITY"
         },
         {
@@ -1866,7 +1866,7 @@
         },
         {
           "ironman": false,
-          "level": 5,
+          "level": 6,
           "recommended": false,
           "skill": "FIREMAKING"
         },
@@ -2495,13 +2495,6 @@
     "displayName": "The Golem",
     "id": 76,
     "requirements": {
-      "quests": [
-        {
-          "quest": 55,
-          "ironman": false,
-          "recommended": false
-        }
-      ],
       "skills": [
         {
           "ironman": false,
@@ -2613,11 +2606,6 @@
     "requirements": {
       "quests": [
         {
-          "quest": 2,
-          "ironman": false,
-          "recommended": false
-        },
-        {
           "quest": 9,
           "ironman": false,
           "recommended": false
@@ -2706,27 +2694,21 @@
       "skills": [
         {
           "ironman": false,
-          "level": 4,
-          "recommended": false,
-          "skill": "SMITHING"
-        },
-        {
-          "ironman": false,
           "level": 8,
-          "recommended": false,
+          "recommended": true,
           "skill": "HERBLORE"
         },
         {
           "ironman": false,
           "level": 20,
-          "recommended": false,
-          "skill": "STRENGTH"
+          "recommended": true,
+          "skill": "CRAFTING"
         },
         {
           "ironman": false,
-          "level": 30,
-          "recommended": false,
-          "skill": "RANGED"
+          "level": 20,
+          "recommended": true,
+          "skill": "STRENGTH"
         },
         {
           "ironman": false,
@@ -4297,6 +4279,11 @@
     "displayName": "Death to the Dorgeshuun",
     "id": 117,
     "requirements": {
+      "combat": {
+        "ironman": false,
+        "level": 80,
+        "recommended": true
+      },
       "quests": [
         {
           "quest": 81,
@@ -4599,6 +4586,28 @@
         {
           "exclusive": false,
           "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 30
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 2000.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 30
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 2000.0
+        },
+        {
+          "exclusive": false,
+          "id": 2,
           "multiplier": 1.0,
           "requirements": {
             "*": 30
@@ -5143,13 +5152,6 @@
     "displayName": "What Lies Below",
     "id": 133,
     "requirements": {
-      "quests": [
-        {
-          "quest": 50,
-          "ironman": false,
-          "recommended": false
-        }
-      ],
       "skills": [
         {
           "ironman": false,
@@ -5160,7 +5162,7 @@
         {
           "ironman": false,
           "level": 42,
-          "recommended": false,
+          "recommended": true,
           "skill": "MINING"
         }
       ]
@@ -5837,7 +5839,7 @@
         {
           "quest": 61,
           "ironman": false,
-          "recommended": false
+          "recommended": true
         },
         {
           "quest": 121,
@@ -5895,6 +5897,28 @@
         {
           "exclusive": false,
           "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 35
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 2500.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 35
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 2500.0
+        },
+        {
+          "exclusive": false,
+          "id": 2,
           "multiplier": 1.0,
           "requirements": {
             "*": 35
@@ -6012,8 +6036,8 @@
     "requirements": {
       "combat": {
         "ironman": false,
-        "level": 90,
-        "recommended": false
+        "level": 60,
+        "recommended": true
       },
       "quests": [
         {
@@ -6034,6 +6058,12 @@
           "level": 25,
           "recommended": false,
           "skill": "CRAFTING"
+        },
+        {
+          "ironman": false,
+          "level": 40,
+          "recommended": true,
+          "skill": "PRAYER"
         }
       ]
     },
@@ -6401,6 +6431,11 @@
     "displayName": "The Hunt for Surok",
     "id": 158,
     "requirements": {
+      "combat": {
+        "ironman": false,
+        "level": 107,
+        "recommended": true
+      },
       "quests": [
         {
           "quest": 133,
@@ -6772,7 +6807,7 @@
         {
           "ironman": false,
           "level": 20,
-          "recommended": false,
+          "recommended": true,
           "skill": "CRAFTING"
         }
       ]
@@ -7027,7 +7062,7 @@
       "combat": {
         "ironman": false,
         "level": 50,
-        "recommended": false
+        "recommended": true
       },
       "quests": [
         {
@@ -7356,18 +7391,6 @@
     "displayName": "Rune Mechanics",
     "id": 174,
     "requirements": {
-      "quests": [
-        {
-          "quest": 50,
-          "ironman": false,
-          "recommended": false
-        },
-        {
-          "quest": 143,
-          "ironman": false,
-          "recommended": false
-        }
-      ],
       "skills": [
         {
           "ironman": false,
@@ -7526,12 +7549,6 @@
           "level": 33,
           "recommended": false,
           "skill": "DEFENCE"
-        },
-        {
-          "ironman": false,
-          "level": 20,
-          "recommended": false,
-          "skill": "MINING"
         },
         {
           "ironman": false,
@@ -8779,7 +8796,7 @@
       "combat": {
         "ironman": false,
         "level": 100,
-        "recommended": false
+        "recommended": true
       },
       "quests": [
         {
@@ -9582,6 +9599,11 @@
     "displayName": "Dishonour among Thieves",
     "id": 211,
     "requirements": {
+      "combat": {
+        "ironman": false,
+        "level": 81,
+        "recommended": true
+      },
       "quests": [
         {
           "quest": 32,
@@ -11192,7 +11214,7 @@
       "skills": [
         {
           "ironman": false,
-          "level": 12,
+          "level": 99,
           "recommended": false,
           "skill": "AGILITY"
         },
@@ -12786,26 +12808,26 @@
       "skills": [
         {
           "ironman": false,
-          "level": 6,
+          "level": 99,
           "recommended": false,
           "skill": "DUNGEONEERING"
         },
         {
           "ironman": false,
           "level": 30,
-          "recommended": false,
+          "recommended": true,
           "skill": "ATTACK"
         },
         {
           "ironman": false,
           "level": 30,
-          "recommended": false,
+          "recommended": true,
           "skill": "MAGIC"
         },
         {
           "ironman": false,
           "level": 30,
-          "recommended": false,
+          "recommended": true,
           "skill": "RANGED"
         }
       ]
