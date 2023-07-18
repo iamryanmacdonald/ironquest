@@ -13345,5 +13345,80 @@
     },
     "title": "Eye of Het II",
     "type": "MINIQUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Extinction",
+    "id": 303,
+    "requirements": {
+      "combat": {
+        "ironman": false,
+        "level": 105,
+        "recommended": true
+      },
+      "quests": [
+        {
+          "quest": 293,
+          "ironman": false,
+          "recommended": false
+        },
+        {
+          "quest": 302,
+          "ironman": false,
+          "recommended": false
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 75
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 175000.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 75
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 175000.0
+        },
+        {
+          "exclusive": false,
+          "id": 2,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 75
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 175000.0
+        },
+        {
+          "exclusive": false,
+          "id": 3,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 75
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 175000.0
+        }
+      ],
+      "questPoints": 4
+    },
+    "title": "Extinction",
+    "type": "QUEST"
   }
 ]
