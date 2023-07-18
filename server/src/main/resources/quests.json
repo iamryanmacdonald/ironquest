@@ -13514,5 +13514,55 @@
     },
     "title": "Aftermath",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Daughter of Chaos",
+    "id": 306,
+    "requirements": {
+      "skills": [
+        {
+          "ironman": false,
+          "level": 40,
+          "recommended": false,
+          "skill": "ARCHAEOLOGY"
+        },
+        {
+          "ironman": false,
+          "level": 40,
+          "recommended": false,
+          "skill": "DIVINATION"
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "ARCHAEOLOGY": 1
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 30000.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
+          "multiplier": 1.0,
+          "requirements": {
+            "DIVINATION": 1
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 30000.0
+        }
+      ],
+      "questPoints": 1
+    },
+    "title": "Daughter of Chaos",
+    "type": "QUEST"
   }
 ]
