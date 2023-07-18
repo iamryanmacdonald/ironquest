@@ -13420,5 +13420,67 @@
     },
     "title": "Extinction",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Twilight of the Gods",
+    "id": 304,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 209,
+          "ironman": false,
+          "recommended": false
+        },
+        {
+          "quest": 303,
+          "ironman": false,
+          "recommended": false
+        }
+      ],
+      "skills": [
+        {
+          "ironman": false,
+          "level": 60,
+          "recommended": false,
+          "skill": "THIEVING"
+        },
+        {
+          "ironman": false,
+          "level": 80,
+          "recommended": false,
+          "skill": "DIVINATION"
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "DIVINATION": 1
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 30000.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
+          "multiplier": 1.0,
+          "requirements": {
+            "MAGIC": 1
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 30000.0
+        }
+      ],
+      "questPoints": 3
+    },
+    "title": "Twilight of the Gods",
+    "type": "QUEST"
   }
 ]
