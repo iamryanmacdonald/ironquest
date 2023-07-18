@@ -13482,5 +13482,37 @@
     },
     "title": "Twilight of the Gods",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Aftermath",
+    "id": 305,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 304,
+          "ironman": false,
+          "recommended": false
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 1
+          },
+          "singleChoice": false,
+          "type": "SMALL_XP",
+          "xp": 0.0
+        }
+      ],
+      "questPoints": 0
+    },
+    "title": "Aftermath",
+    "type": "QUEST"
   }
 ]
