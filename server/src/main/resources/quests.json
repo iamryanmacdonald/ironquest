@@ -13681,5 +13681,38 @@
     },
     "title": "Murder on the Border",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Unwelcome Guests",
+    "id": 309,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 308,
+          "ironman": false,
+          "recommended": false
+        }
+      ],
+      "skills": [
+        {
+          "ironman": false,
+          "level": 10,
+          "recommended": false,
+          "skill": "SLAYER"
+        },
+        {
+          "ironman": false,
+          "level": 50,
+          "recommended": false,
+          "skill": "CONSTRUCTION"
+        }
+      ]
+    },
+    "rewards": {
+      "questPoints": 1
+    },
+    "title": "Unwelcome Guests",
+    "type": "QUEST"
   }
 ]
