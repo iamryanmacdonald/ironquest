@@ -1080,26 +1080,20 @@
         },
         {
           "ironman": false,
-          "level": 34,
-          "recommended": false,
-          "skill": "MAGIC"
-        },
-        {
-          "ironman": false,
-          "level": 50,
-          "recommended": false,
-          "skill": "AGILITY"
-        },
-        {
-          "ironman": false,
           "level": 43,
-          "recommended": false,
+          "recommended": true,
           "skill": "PRAYER"
         },
         {
           "ironman": false,
           "level": 50,
-          "recommended": false,
+          "recommended": true,
+          "skill": "AGILITY"
+        },
+        {
+          "ironman": false,
+          "level": 50,
+          "recommended": true,
           "skill": "THIEVING"
         }
       ]
@@ -1790,15 +1784,9 @@
       "skills": [
         {
           "ironman": false,
-          "level": 56,
-          "recommended": false,
+          "level": 60,
+          "recommended": true,
           "skill": "AGILITY"
-        },
-        {
-          "ironman": false,
-          "level": 10,
-          "recommended": false,
-          "skill": "CRAFTING"
         }
       ]
     },
