@@ -13627,5 +13627,16 @@
     },
     "title": "Daughter of Chaos",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "New Foundations",
+    "id": 307,
+    "requirements": {},
+    "rewards": {
+      "questPoints": 1
+    },
+    "title": "New Foundations",
+    "type": "QUEST"
   }
 ]
