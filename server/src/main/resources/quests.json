@@ -13714,5 +13714,48 @@
     },
     "title": "Unwelcome Guests",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Dead and Buried",
+    "id": 310,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 309,
+          "ironman": false,
+          "recommended": false
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "CONSTRUCTION": 1
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 8000.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 30
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 3000.0
+        }
+      ],
+      "questPoints": 1
+    },
+    "title": "Dead and Buried",
+    "type": "QUEST"
   }
 ]
