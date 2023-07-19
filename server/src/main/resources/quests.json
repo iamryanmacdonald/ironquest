@@ -1896,15 +1896,15 @@
       "skills": [
         {
           "ironman": false,
-          "level": 40,
-          "recommended": false,
-          "skill": "CRAFTING"
-        },
-        {
-          "ironman": false,
           "level": 25,
           "recommended": false,
           "skill": "FLETCHING"
+        },
+        {
+          "ironman": false,
+          "level": 40,
+          "recommended": false,
+          "skill": "CRAFTING"
         },
         {
           "ironman": false,
@@ -3538,11 +3538,6 @@
           "recommended": false
         },
         {
-          "quest": 38,
-          "ironman": false,
-          "recommended": false
-        },
-        {
           "quest": 55,
           "ironman": false,
           "recommended": false
@@ -4857,6 +4852,12 @@
       "skills": [
         {
           "ironman": false,
+          "level": 15,
+          "recommended": false,
+          "skill": "THIEVING"
+        },
+        {
+          "ironman": false,
           "level": 18,
           "recommended": false,
           "skill": "SLAYER"
@@ -4878,12 +4879,6 @@
           "level": 35,
           "recommended": false,
           "skill": "WOODCUTTING"
-        },
-        {
-          "ironman": false,
-          "level": 15,
-          "recommended": false,
-          "skill": "THIEVING"
         }
       ]
     },
@@ -4910,6 +4905,14 @@
           "ironman": false,
           "recommended": false
         }
+      ],
+      "skills": [
+        {
+          "ironman": false,
+          "level": 43,
+          "recommended": true,
+          "skill": "PRAYER"
+        }
       ]
     },
     "rewards": {
@@ -4917,6 +4920,23 @@
         {
           "exclusive": false,
           "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "ATTACK": 1,
+            "CONSTITUTION": 1,
+            "DEFENCE": 1,
+            "MAGIC": 1,
+            "RANGED": 1,
+            "STRENGTH": 1,
+            "SUMMONING": 30
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 7000.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
           "multiplier": 1.0,
           "requirements": {
             "ATTACK": 1,
@@ -7488,21 +7508,15 @@
       "skills": [
         {
           "ironman": false,
-          "level": 59,
+          "level": 36,
           "recommended": false,
-          "skill": "MAGIC"
+          "skill": "CRAFTING"
         },
         {
           "ironman": false,
-          "level": 54,
-          "recommended": false,
-          "skill": "FARMING"
-        },
-        {
-          "ironman": false,
-          "level": 51,
-          "recommended": false,
-          "skill": "THIEVING"
+          "level": 37,
+          "recommended": true,
+          "skill": "PRAYER"
         },
         {
           "ironman": false,
@@ -7512,9 +7526,21 @@
         },
         {
           "ironman": false,
-          "level": 36,
+          "level": 51,
           "recommended": false,
-          "skill": "CRAFTING"
+          "skill": "THIEVING"
+        },
+        {
+          "ironman": false,
+          "level": 54,
+          "recommended": false,
+          "skill": "FARMING"
+        },
+        {
+          "ironman": false,
+          "level": 59,
+          "recommended": false,
+          "skill": "MAGIC"
         }
       ]
     },
@@ -9702,7 +9728,17 @@
     "displayName": "Dimension of Disaster: Demon Slayer",
     "id": 214,
     "requirements": {
+      "combat": {
+        "ironman": false,
+        "level": 100,
+        "recommended": true
+      },
       "quests": [
+        {
+          "quest": 1,
+          "ironman": false,
+          "recommended": false
+        },
         {
           "quest": 92,
           "ironman": false,
@@ -11204,6 +11240,11 @@
     "displayName": "Curse of the Black Stone",
     "id": 242,
     "requirements": {
+      "combat": {
+        "ironman": false,
+        "level": 100,
+        "recommended": true
+      },
       "quests": [
         {
           "quest": 229,
@@ -11214,7 +11255,7 @@
       "skills": [
         {
           "ironman": false,
-          "level": 99,
+          "level": 12,
           "recommended": false,
           "skill": "AGILITY"
         },
@@ -11231,6 +11272,28 @@
         {
           "exclusive": false,
           "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 1
+          },
+          "singleChoice": false,
+          "type": "HUGE_XP",
+          "xp": 0.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 1
+          },
+          "singleChoice": false,
+          "type": "HUGE_XP",
+          "xp": 0.0
+        },
+        {
+          "exclusive": false,
+          "id": 2,
           "multiplier": 1.0,
           "requirements": {
             "*": 1
@@ -11267,6 +11330,12 @@
           "ironman": false,
           "level": 50,
           "recommended": false,
+          "skill": "DIVINATION"
+        },
+        {
+          "ironman": false,
+          "level": 50,
+          "recommended": false,
           "skill": "MINING"
         },
         {
@@ -11274,12 +11343,6 @@
           "level": 50,
           "recommended": false,
           "skill": "SMITHING"
-        },
-        {
-          "ironman": false,
-          "level": 50,
-          "recommended": false,
-          "skill": "DIVINATION"
         }
       ]
     },
