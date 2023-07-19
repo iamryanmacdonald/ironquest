@@ -13638,5 +13638,48 @@
     },
     "title": "New Foundations",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Murder on the Border",
+    "id": 308,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 307,
+          "ironman": false,
+          "recommended": false
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "CONSTRUCTION": 40
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 8000.0
+        },
+        {
+          "exclusive": false,
+          "id": 1,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 30
+          },
+          "singleChoice": false,
+          "type": "XP",
+          "xp": 3000.0
+        }
+      ],
+      "questPoints": 1
+    },
+    "title": "Murder on the Border",
+    "type": "QUEST"
   }
 ]
