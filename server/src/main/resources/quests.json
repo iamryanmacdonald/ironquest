@@ -13745,5 +13745,109 @@
     },
     "title": "Dead and Buried",
     "type": "QUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Civil War I",
+    "id": 311,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 306,
+          "ironman": false,
+          "recommended": true
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 1
+          },
+          "singleChoice": false,
+          "type": "SMALL_XP",
+          "xp": 0.0
+        }
+      ],
+      "questPoints": 0
+    },
+    "title": "Civil War I (miniquest)",
+    "type": "MINIQUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Civil War II",
+    "id": 312,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 311,
+          "ironman": false,
+          "recommended": true
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 1
+          },
+          "singleChoice": false,
+          "type": "SMALL_XP",
+          "xp": 0.0
+        }
+      ],
+      "questPoints": 0
+    },
+    "title": "Civil War II (miniquest)",
+    "type": "MINIQUEST"
+  },
+  {
+    "access": "MEMBERS",
+    "displayName": "Civil War III",
+    "id": 313,
+    "requirements": {
+      "quests": [
+        {
+          "quest": 312,
+          "ironman": false,
+          "recommended": true
+        }
+      ],
+      "skills": [
+        {
+          "ironman": false,
+          "level": 50,
+          "recommended": false,
+          "skill": "FARMING"
+        }
+      ]
+    },
+    "rewards": {
+      "lamps": [
+        {
+          "exclusive": false,
+          "id": 0,
+          "multiplier": 1.0,
+          "requirements": {
+            "*": 1
+          },
+          "singleChoice": false,
+          "type": "SMALL_XP",
+          "xp": 0.0
+        }
+      ],
+      "questPoints": 0
+    },
+    "title": "Civil War III (miniquest)",
+    "type": "MINIQUEST"
   }
 ]
